@@ -1,0 +1,19 @@
+Instalar o xampp
+
+Habilitar soap no php.ini
+
+Diretorio do sistema:
+C:\xampp\htdocs\estoque.ws
+
+Instalar SOAP UI
+
+URL:
+http://localhost/estoque.ws/estoque.ws.wsdl
+
+XML chamada:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://localhost/estoque.ws">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:getProducts/>
+   </soapenv:Body>
+</soapenv:Envelope>
