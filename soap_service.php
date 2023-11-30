@@ -17,7 +17,7 @@ class ProductService {
     public function getProducts() {
         $products = array();
 
-        $numProducts = rand(15, 30);
+        $numProducts = rand(40, 50);
 
         for ($i = 1; $i <= $numProducts; $i++) {
             $name = "Produto " . $i;
